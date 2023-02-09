@@ -1,3 +1,10 @@
 h1{
     color: blue;
 }
+.goofyHeader{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}

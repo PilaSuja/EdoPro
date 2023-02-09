@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +11,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="goofyHeader">
 
-<h1>EDO ER PRO</h1>
+    <div id="Icon">
+<i class="fa-solid fa-dragon"></i>
+</div>
 
 
-<img src="/bilder/MicrosoftTeams-image.png" alt="">
-
-
+    <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+     <img id="finBilde" src="/bilder/MicrosoftTeams-image.png" alt="">
+    </div>
+</div>
     
 </body>
+<script>
+    AOS.init();
+</script>
 </html>
